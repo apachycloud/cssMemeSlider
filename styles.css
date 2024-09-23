@@ -1,0 +1,46 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mem-img {
+	display: block;
+	width: 600px;
+	height: 450px;
+	margin-top: 25px;
+	margin: 25px 30px;
+	background-image: url("img/niger.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn {
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: red;
+	cursor: pointer;
+}
+
+.slider-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	margin-right: 25px;
+}
+
+.slider-container {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	justify-content: center;
+}
